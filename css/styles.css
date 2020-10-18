@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 16px;
+  color: #33475B;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* ALTEZZE DA RIMUOVERE */
 #site_header{
   height: 400px;
@@ -23,10 +29,6 @@
   float: left;
 }
 
-.float_right{
-  float: right;
-}
-
 .container{
   width: 70%;
   margin: auto;
@@ -38,48 +40,54 @@
 }
 
 .btn_log{
-  border: 1px solid #FC937C;
+  border: 1px solid #fe785a;
+  #FC937C;
   border-radius: 5px;
-  color: #FC937C;
+  color: #fe785a;
+  #FC937C;
   padding: 10px;
   margin:0 10px;
 }
 
+.btn_log:hover{
+  color:#FC937C;
+  border: 1px solid #FC937C;
+}
+
 .btn{
   color: white;
-  background-color: #FC937C;
+  background-color: #fe785a;
   border-radius: 5px;
   padding: 10px;
   margin-left: 10px;
 }
+
+.btn:hover{
+  background-color: #FC937C;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
 /* /Classe Utility */
 
 /* Site Header */
+
+/* Nav_top */
 .nav_top{
+  min-width: 1200px;
   height: 80px;
+  line-height: 80px;
   width: 100%;
   background-color: #F4F9FD;
   border-bottom: 1px solid black;
   position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .nav_top_left{
   width: 30%;
-}
-
-#contact{
-  border-left: 1px solid black;
-  padding-left: 10px;
-}
-
- .nav_top_right{
-   width: 70%;
- }
-
-.nav_top_left li{
-  list-style: none;
-  line-height: 80px;
-  margin-right: 10px;
 }
 
 .nav_top_left a{
@@ -87,10 +95,19 @@
   color: #32495b;
 }
 
- .nav_top_right li{
-   list-style: none;
-   line-height: 80px;
- }
+.nav_top_left i{
+  color: #32495b;
+}
+
+#contact{
+  border-left: 2px solid #8A9397;
+  padding-left: 20px;
+}
+
+.nav_top_right{
+  width: 70%;
+  text-align: right;
+}
 
  .nav_top_right a{
    text-decoration: none;
@@ -99,3 +116,40 @@
  #search{
    color: #00A4BD;
  }
+/* /Nav_top */
+
+/* Nav_bottom */
+
+  .nav_bottom{
+   margin-top: 80px;
+   height: 80px;
+   line-height: 80px;
+   width: 100%;
+   background-color: #F4F9FD;
+   min-width: 1200px;
+ }
+
+/* nav_bottom_left */
+ .nav_bottom_left{
+   width: 15%;
+ }
+
+ .logo{
+   vertical-align: middle;
+ }
+/* /nav_bottom_left */
+
+/* nav_bottom_right */
+ .nav_bottom_right{
+   width: 85%;
+   text-align:right;
+ }
+
+ .nav_bottom_right a{
+   text-decoration: none;
+   color: #32495b;
+ }
+/* /nav_bottom_right */
+
+
+ /* /Nav_Bottom */
