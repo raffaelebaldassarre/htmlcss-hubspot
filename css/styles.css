@@ -11,16 +11,15 @@ body{
 }
 
 /* ALTEZZE DA RIMUOVERE */
-#site_header{
-  height: 400px;
-}
 
 #site_main{
   height: 1500px;
+  background-color: red;
 }
 
 #site_footer{
   height: 500px;
+  background-color: green;
 }
 /* /ALTEZZE DA RIMUOVERE */
 
@@ -33,7 +32,8 @@ body{
   width: 70%;
   margin: auto;
 }
-.container::after{
+
+.clearfix{
   content: "";
   display: table;
   clear: both;
@@ -54,7 +54,7 @@ body{
   border: 1px solid #FC937C;
 }
 
-.btn{
+.btn-sm{
   color: white;
   background-color: #fe785a;
   border-radius: 5px;
@@ -62,8 +62,20 @@ body{
   margin-left: 10px;
 }
 
-.btn:hover{
+.btn-sm:hover{
   background-color: #FC937C;
+}
+
+/* ATTENZIONE BTN DANDO L'INLINE-BLOCK SI AUTODELIMITA */
+.btn{
+  display: inline-block;
+  color: white;
+  background-color: #fe785a;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
 }
 
 .mr20 {
@@ -125,7 +137,7 @@ body{
    height: 80px;
    line-height: 80px;
    width: 100%;
-   background-color: #F4F9FD;
+
    min-width: 1200px;
  }
 
@@ -151,5 +163,41 @@ body{
  }
 /* /nav_bottom_right */
 
+/* /Nav_Bottom */
 
- /* /Nav_Bottom */
+/* /jumbotron */
+
+.jumbotron{
+  width: 100%;
+  height: 695px;
+  background-image: url("../img/jumbotron.png");
+  background-color: #FFF4EF;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.container_jumbotron{
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+.container_title{
+  width: 50%;
+  margin-top: 60px;
+}
+
+.container_title h1{
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.container_title p{
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.container_title .p_small{
+  font-size: 80%;
+}
