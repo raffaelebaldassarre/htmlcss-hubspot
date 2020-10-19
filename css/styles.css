@@ -12,11 +12,6 @@ body{
 
 /* ALTEZZE DA RIMUOVERE */
 
-#site_main{
-  height: 1500px;
-  background-color: red;
-}
-
 #site_footer{
   height: 500px;
   background-color: green;
@@ -96,6 +91,7 @@ body{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .nav_top_left{
@@ -160,7 +156,14 @@ body{
  .nav_bottom_right a{
    text-decoration: none;
    color: #32495b;
+   margin-right: 10px;
  }
+
+  .nav_bottom_right a:nth-of-type(2){
+    text-decoration: none;
+    color: #32495b;
+    margin-right: 0px;
+  }
 /* /nav_bottom_right */
 
 /* /Nav_Bottom */
@@ -213,3 +216,52 @@ body{
   bottom: 0;
   left: 0;
 }
+
+/* /Site Header */
+
+/* Site_Main */
+
+.main_top_container{
+  width: 100%;
+  height: 1000px;
+  background-color: #F4F9FD
+}
+
+.mt_top_containter{
+  width: 50%;
+  background-color: white;
+  margin: auto;
+}
+
+.mt_middle_container, .mt_bottom_container{
+  width: 70%;
+  background-color: white;
+  margin: auto;
+}
+
+ /* mt.mt_top_containter */
+
+.powerful{
+  width: 100%;
+  height: 400px;
+  text-align:center;
+  padding-top: 50px;
+}
+
+.powerful img{
+  width: 250px;
+}
+
+.powerful h2{
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.powerful p{
+  line-height: 1.5em;
+}
+
+/* /mt.mt_top_containter */
+
+/* mt_middle_container */
