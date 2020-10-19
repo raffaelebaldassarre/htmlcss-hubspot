@@ -216,9 +216,11 @@ body{
 
 /* Site_Main */
 
+/* Main_top */
 .main_top_container{
   width: 100%;
-  background-color: #F4F9FD
+  background-color: #F4F9FD;
+  min-width: 1200px;
 }
 
 .mt_top_containter{
@@ -235,19 +237,12 @@ body{
   margin-bottom: 50px;
 }
 
-.mt_bottom_container{
-  width: 70%;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
- /* mt.mt_top_containter */
+ /* mt.mt_top_container */
 
 .powerful{
   width: 100%;
   padding: 50px 0;
   text-align:center;
-  padding-top: 50px;
 }
 
 .powerful img{
@@ -263,10 +258,10 @@ body{
 .powerful p{
   line-height: 1.8em;
 }
-/* /mt.mt_top_containter */
+/* /mt.mt_top_container */
 
 
-/* mt.mt_middle_containter */
+/* mt.mt_middle_container */
 
 .info_box{
   padding: 6%;
@@ -323,9 +318,15 @@ body{
 .book_text i:nth-child(n+2){
   margin: 0 20px 0 20px;
 }
-/* /mt.mt_middle_containter */
+/* /mt.mt_middle_container */
 
-/* mt.mt_bottom_containter */
+/* mt.mt_bottom_container */
+.mt_bottom_container{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
 #mt_bottom_center{
   margin:0 5%;
 }
@@ -334,6 +335,7 @@ body{
   width: 30%;
   background-color: white;
   box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+  border-radius: 5px;
   text-align: center;
   padding: 20px;
 }
@@ -388,3 +390,52 @@ body{
   color: #fe785a;
   margin: 0 20px 0 0;
 }
+/* /mt_bottom_container */
+
+/* /Main_top */
+
+/* Middle_top */
+
+.main_middle_container{
+  width: 100%;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+  padding: 50px 0;
+}
+
+/* learn_grow */
+.learn_grow {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  line-height: 2em;
+}
+
+.learn_grow h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+    line-height: 1.2em;
+}
+/* /learn_grow */
+
+/* learn_table_row */
+.learn_table_row{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.table_item{
+  width: 25%;
+  height: 150px;
+}
+
+.learn_table_row:not(:last-child){
+  border-bottom: 1px solid white;
+}
+
+.table_item:not(:last-child){
+  border-right: 1px solid white;
+}
+/* learn_table_row */
