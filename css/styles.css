@@ -29,10 +29,8 @@ body{
 
 .btn_log{
   border: 1px solid #fe785a;
-  #FC937C;
   border-radius: 5px;
   color: #fe785a;
-  #FC937C;
   padding: 10px;
   margin:0 10px;
   font-size: 14px;
@@ -309,7 +307,7 @@ body{
   font-weight: 800;
 }
 
-.book_text .line:after {
+.book_text .top_line:after {
   content: '';
   display: block;
   float: right;
@@ -570,9 +568,7 @@ body{
 
 /* site_footer */
 
-/* Eliminare  altezza alla fine */
 #site_footer{
-  height: 1000px;
   background-color: #32495b;
   color: white;
 }
@@ -582,6 +578,7 @@ body{
   margin: auto;
 }
 
+/* top_footer_container */
 .top_footer_container{
   width: 100%;
   padding: 40px 0;
@@ -601,6 +598,10 @@ body{
   color: #cbd6e2;
 }
 
+.col_3 a:hover{
+  color:#7fd1de;
+}
+
 .col_3 h2{
   font-size: 16px;
   margin-bottom: 30px;
@@ -610,18 +611,95 @@ body{
 #btn_grey{
   display: inline-block;
   color: #32495b;
-  background-color: #C2C9CE;
-  border: 1px solid #C2C9CE;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   padding: 10px;
   font-size: 14px;
   line-height: 16px;
 }
 
+#btn_grey:hover{
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+#social_inline{
+  margin-bottom: 20px;
+}
+
 #social_inline li{
   display: inline-block;
+  margin-right: 25px;
+}
+
+#social_inline a{
+  padding-bottom: 10px;
+}
+/* /top_footer_container */
+
+/* middle_footer_container */
+.class_100{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+#languages_inline li{
+  display: inline-block;
+  list-style: none;
   margin-right: 20px;
 }
 
+#languages_inline a{
+text-decoration: none;
+color: #cbd6e2;
+}
+
+#languages_inline a:hover{
+  color:#7fd1de;
+}
+/*] /middle_footer_container */
+
+/* bottom_footer_container */
+.bottom_footer_container{
+  width: 100%;
+}
+
+.col_50{
+  width: 50%;
+  padding: 40px 0;
+}
+
+#col_50_left{
+  text-align: left;
+}
+
+#col_50_right{
+  text-align: right;
+}
+
+.policy li{
+  display: inline-block;
+  list-style: none;
+}
+
+.policy li:first-child{
+  margin-right: 20px;
+}
+
+.policy a{
+  text-decoration: none;
+  color: #cbd6e2;
+}
+
+.policy a:hover{
+  color:#7fd1de;
+}
+
+.copy p{
+  line-height: 1.8em;
+}
+/* /bottom_footer_container */
 
 /* /site_footer */
