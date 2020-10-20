@@ -80,9 +80,9 @@ body{
 }
 /* /Classe Utility */
 
-/* Site Header */
+/* site_header */
 
-/* Nav_top */
+/* nav_top */
 .nav_top{
   min-width: 1200px;
   height: 80px;
@@ -128,7 +128,7 @@ body{
  }
 /* /Nav_top */
 
-/* Nav_bottom */
+/* nav_bottom */
 
   .nav_bottom{
    margin-top: 80px;
@@ -166,9 +166,9 @@ body{
   }
 /* /nav_bottom_right */
 
-/* /Nav_Bottom */
+/* /nav_bottom */
 
-/* /jumbotron */
+/* jumbotron */
 
 .jumbotron{
   width: 100%;
@@ -216,12 +216,13 @@ body{
   bottom: 0;
   left: 0;
 }
+/* /jumbotron */
 
-/* /Site Header */
+/* /site_header */
 
-/* Site_Main */
+/* site_main */
 
-/* Main_top */
+/* main_top_container */
 .main_top_container{
   width: 100%;
   background-color: #F4F9FD;
@@ -396,9 +397,9 @@ body{
 }
 /* /mt_bottom_container */
 
-/* /Main_top */
+/* /main_top_container */
 
-/* Middle_top */
+/* main_middle_container */
 
 .main_middle_container{
   width: 100%;
@@ -557,3 +558,25 @@ body{
 .start_image img{
   height: 100%;
 }
+/* /start */
+
+/* /main_bottom_container */
+
+/* /site_main */
+
+/* site_footer */
+
+/* Eliminare  altezza alla fine */
+#site_footer{
+  height: 1000px;
+  background-color: #32495b;
+  color: white;
+}
+
+.footer_container{
+  width: 70%;
+  margin: auto;
+}
+
+
+/* /site_footer */
