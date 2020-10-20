@@ -8,7 +8,7 @@ body{
   font-size: 16px;
   color: #33475B;
   font-family: 'Montserrat', sans-serif;
-  min-width: 1200px;
+  min-width: 1500px;
 }
 
 /* Classe Utility */
@@ -260,7 +260,6 @@ body{
 }
 /* /mt.mt_top_container */
 
-
 /* mt.mt_middle_container */
 
 .info_box{
@@ -408,14 +407,17 @@ body{
   width: 70%;
   margin: auto;
   text-align: center;
-  line-height: 2em;
 }
 
 .learn_grow h2{
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 30px;
-    line-height: 1.2em;
+  line-height: 1.2em;
+}
+
+.learn_grow P{
+  line-height: 1.8em;
 }
 /* /learn_grow */
 
@@ -464,3 +466,51 @@ body{
   font-size: 13px;
 }
 /* learn_table */
+
+/* /main_middle_container */
+
+/* main_bottom_container */
+.main_bottom_container{
+  width: 100%;
+  height: 1000px;
+  min-width: 1200px;
+  padding: 50px 0;
+}
+
+/* costumers */
+.costumers{
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+
+.costumers h2{
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.costumers p{
+  line-height: 1.8em;
+}
+
+.costumers ul{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+}
+
+.costumers li{
+  list-style: none;
+  display: inline-block;
+  width: 24%;
+  padding: 0 5px;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+.costumers li img{
+  width: 100%;
+}
+/* /costumers */
