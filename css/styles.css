@@ -584,6 +584,7 @@ body{
 
 .top_footer_container{
   width: 100%;
+  padding: 40px 0;
 }
 
 .top_footer_container .col_3{
@@ -592,10 +593,35 @@ body{
 
 .col_3 li{
   list-style: none;
+  margin-bottom: 20px;
 }
 
 .col_3 a{
   text-decoration: none;
-  color: white;
+  color: #cbd6e2;
 }
+
+.col_3 h2{
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+#btn_grey{
+  display: inline-block;
+  color: #32495b;
+  background-color: #C2C9CE;
+  border: 1px solid #C2C9CE;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#social_inline li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
 /* /site_footer */
