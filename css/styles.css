@@ -78,6 +78,10 @@ body{
 .mb50 {
   margin-bottom: 50px;
 }
+
+.ptb50 {
+  padding: 50px 0;
+}
 /* /Classe Utility */
 
 /* site_header */
@@ -578,5 +582,20 @@ body{
   margin: auto;
 }
 
+.top_footer_container{
+  width: 100%;
+}
 
+.top_footer_container .col_3{
+  width: 25%;
+}
+
+.col_3 li{
+  list-style: none;
+}
+
+.col_3 a{
+  text-decoration: none;
+  color: white;
+}
 /* /site_footer */
